@@ -1,0 +1,1020 @@
+--- 第1天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：27.926 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day1_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day1_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day1_MR_LP.mps
+Reading time = 4.39 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.46s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.57s
+
+Barrier performed 0 iterations in 8.54 seconds (15.19 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 49626 iterations and 9.45 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.457 秒
+程序总用时：49.419 秒
+
+--- 第2天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.490 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day2_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day2_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day2_MR_LP.mps
+Reading time = 4.36 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x8a271822
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 61180 rows and 19381 columns
+Presolve time: 2.37s
+Presolved: 83139 rows, 67446 columns, 6436397 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.52s
+
+Barrier performed 0 iterations in 8.35 seconds (15.03 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   44827    2.0515323e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 44827 iterations and 9.20 seconds (29.62 work units)
+Optimal objective  2.051532295e+07
+求解完成（状态=2），求解用时：9.211 秒
+程序总用时：49.680 秒
+
+--- 第3天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.055 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day3_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day3_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day3_MR_LP.mps
+Reading time = 4.38 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.44s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.34s
+
+Barrier performed 0 iterations in 8.29 seconds (15.19 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 49626 iterations and 9.19 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.200 秒
+程序总用时：49.264 秒
+
+--- 第4天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.104 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day4_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day4_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day4_MR_LP.mps
+Reading time = 4.53 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.48s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.50s
+
+Barrier performed 0 iterations in 8.56 seconds (15.19 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 49626 iterations and 9.49 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.500 秒
+程序总用时：49.923 秒
+
+--- 第5天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.250 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day5_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day5_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day5_MR_LP.mps
+Reading time = 4.41 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x8a271822
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 61180 rows and 19381 columns
+Presolve time: 2.44s
+Presolved: 83139 rows, 67446 columns, 6436397 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 3.06s
+
+Barrier performed 0 iterations in 8.97 seconds (15.05 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   44827    2.0515323e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 44827 iterations and 9.87 seconds (29.62 work units)
+Optimal objective  2.051532295e+07
+求解完成（状态=2），求解用时：9.880 秒
+程序总用时：50.140 秒
+
+--- 第6天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.037 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day6_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day6_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day6_MR_LP.mps
+Reading time = 4.48 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.43s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.70s
+
+Barrier performed 0 iterations in 8.75 seconds (15.24 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 49626 iterations and 9.63 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.640 秒
+程序总用时：49.743 秒
+
+--- 第7天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.564 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day7_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day7_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day7_MR_LP.mps
+Reading time = 4.47 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.46s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.82s
+
+Barrier performed 0 iterations in 8.90 seconds (15.22 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 49626 iterations and 9.81 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.827 秒
+程序总用时：50.482 秒
+
+--- 第8天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.243 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day8_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day8_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day8_MR_LP.mps
+Reading time = 4.50 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x8a271822
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 61180 rows and 19381 columns
+Presolve time: 2.41s
+Presolved: 83139 rows, 67446 columns, 6436397 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.83s
+
+Barrier performed 0 iterations in 8.68 seconds (15.05 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   44827    2.0515323e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 44827 iterations and 9.58 seconds (29.62 work units)
+Optimal objective  2.051532295e+07
+求解完成（状态=2），求解用时：9.591 秒
+程序总用时：49.888 秒
+
+--- 第9天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.912 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day9_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day9_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day9_MR_LP.mps
+Reading time = 4.40 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf721a39c
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61087 rows and 19381 columns
+Presolve time: 2.49s
+Presolved: 83232 rows, 67356 columns, 6492111 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.43s
+
+Barrier performed 0 iterations in 8.46 seconds (15.20 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49626    3.2943878e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 49626 iterations and 9.38 seconds (34.83 work units)
+Optimal objective  3.294387759e+07
+求解完成（状态=2），求解用时：9.404 秒
+程序总用时：50.267 秒
+
+--- 第10天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.085 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day10_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day10_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day10_MR_LP.mps
+Reading time = 4.37 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xfa65eed6
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61036 rows and 19381 columns
+Presolve time: 2.39s
+Presolved: 83283 rows, 67338 columns, 6528921 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.64s
+
+Barrier performed 0 iterations in 8.48 seconds (15.52 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50576    3.6180252e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50576 iterations and 9.40 seconds (35.78 work units)
+Optimal objective  3.618025181e+07
+求解完成（状态=2），求解用时：9.409 秒
+程序总用时：49.674 秒
+
+--- 第11天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.862 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day11_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day11_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day11_MR_LP.mps
+Reading time = 4.41 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x423dcc3e
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61036 rows and 19381 columns
+Presolve time: 2.46s
+Presolved: 83283 rows, 67338 columns, 6528788 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 4.25s
+
+Barrier performed 0 iterations in 10.13 seconds (15.67 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50003    3.5835714e+07   0.000000e+00   0.000000e+00     11s
+
+Solved in 50003 iterations and 11.03 seconds (33.04 work units)
+Optimal objective  3.583571369e+07
+求解完成（状态=2），求解用时：11.043 秒
+程序总用时：51.938 秒
+
+--- 第12天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：29.331 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day12_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day12_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day12_MR_LP.mps
+Reading time = 4.46 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x1700a5ae
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61048 rows and 19381 columns
+Presolve time: 2.45s
+Presolved: 83271 rows, 67344 columns, 6520896 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.66s
+
+Barrier performed 0 iterations in 8.58 seconds (15.54 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50121    3.5813214e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50121 iterations and 9.46 seconds (35.73 work units)
+Optimal objective  3.581321368e+07
+求解完成（状态=2），求解用时：9.476 秒
+程序总用时：51.079 秒
+
+--- 第13天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.349 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day13_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day13_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day13_MR_LP.mps
+Reading time = 4.49 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xf6919acd
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61045 rows and 19381 columns
+Presolve time: 2.42s
+Presolved: 83274 rows, 67345 columns, 6522990 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.72s
+
+Barrier performed 0 iterations in 8.59 seconds (15.29 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50418    3.4920577e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50418 iterations and 9.48 seconds (34.94 work units)
+Optimal objective  3.492057700e+07
+求解完成（状态=2），求解用时：9.498 秒
+程序总用时：50.047 秒
+
+--- 第14天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.852 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day14_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day14_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day14_MR_LP.mps
+Reading time = 4.49 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xe99ae7af
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61032 rows and 19381 columns
+Presolve time: 2.49s
+Presolved: 83287 rows, 67344 columns, 6531423 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.44s
+
+Barrier performed 0 iterations in 8.45 seconds (15.29 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50339    3.5335370e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50339 iterations and 9.34 seconds (32.72 work units)
+Optimal objective  3.533537021e+07
+求解完成（状态=2），求解用时：9.351 秒
+程序总用时：50.304 秒
+
+--- 第15天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.863 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day15_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day15_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day15_MR_LP.mps
+Reading time = 4.43 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xc9204b06
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61018 rows and 19381 columns
+Presolve time: 2.47s
+Presolved: 83301 rows, 67337 columns, 6539930 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.16s
+
+Barrier performed 0 iterations in 8.08 seconds (15.20 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   49849    3.4978741e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 49849 iterations and 8.97 seconds (31.27 work units)
+Optimal objective  3.497874052e+07
+求解完成（状态=2），求解用时：8.988 秒
+程序总用时：49.904 秒
+
+--- 第16天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.917 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day16_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day16_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day16_MR_LP.mps
+Reading time = 4.42 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x7bea2f95
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61045 rows and 19381 columns
+Presolve time: 2.45s
+Presolved: 83274 rows, 67346 columns, 6522569 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.53s
+
+Barrier performed 0 iterations in 8.45 seconds (15.44 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50552    3.5492385e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50552 iterations and 9.32 seconds (34.25 work units)
+Optimal objective  3.549238516e+07
+求解完成（状态=2），求解用时：9.337 秒
+程序总用时：50.262 秒
+
+--- 第17天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.362 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day17_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day17_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day17_MR_LP.mps
+Reading time = 4.43 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x6f8c7a21
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61029 rows and 19381 columns
+Presolve time: 2.42s
+Presolved: 83290 rows, 67338 columns, 6532720 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 3.01s
+
+Barrier performed 0 iterations in 8.97 seconds (15.58 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   51126    3.6221886e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 51126 iterations and 9.84 seconds (37.26 work units)
+Optimal objective  3.622188586e+07
+求解完成（状态=2），求解用时：9.849 秒
+程序总用时：50.318 秒
+
+--- 第18天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.615 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day18_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day18_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day18_MR_LP.mps
+Reading time = 4.50 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x8f041d60
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61024 rows and 19381 columns
+Presolve time: 2.44s
+Presolved: 83295 rows, 67361 columns, 6536114 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.89s
+
+Barrier performed 0 iterations in 8.72 seconds (15.35 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   51218    3.4542294e+07   0.000000e+00   0.000000e+00     10s
+
+Solved in 51218 iterations and 9.59 seconds (34.46 work units)
+Optimal objective  3.454229447e+07
+求解完成（状态=2），求解用时：9.603 秒
+程序总用时：50.265 秒
+
+--- 第19天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：29.085 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day19_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day19_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day19_MR_LP.mps
+Reading time = 4.43 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0x31afe946
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61033 rows and 19381 columns
+Presolve time: 2.41s
+Presolved: 83286 rows, 67344 columns, 6530541 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.51s
+
+Barrier performed 0 iterations in 8.41 seconds (15.26 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50362    3.5337309e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50362 iterations and 9.30 seconds (35.11 work units)
+Optimal objective  3.533730902e+07
+求解完成（状态=2），求解用时：9.308 秒
+程序总用时：50.434 秒
+
+--- 第20天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：28.451 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day20_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day20_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S1_Day20_MR_LP.mps
+Reading time = 4.56 seconds
+COPTPROB: 144319 rows, 83616 columns, 32652845 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 144319 rows, 83616 columns and 32652845 nonzeros
+Model fingerprint: 0xa427f040
+Coefficient statistics:
+  Matrix range     [1e-05, 8e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 2e+04]
+Presolve removed 61037 rows and 19381 columns
+Presolve time: 2.51s
+Presolved: 83282 rows, 67348 columns, 6527819 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Ordering time: 2.48s
+
+Barrier performed 0 iterations in 8.45 seconds (15.19 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   50524    3.5074711e+07   0.000000e+00   0.000000e+00      9s
+
+Solved in 50524 iterations and 9.37 seconds (33.74 work units)
+Optimal objective  3.507471089e+07
+求解完成（状态=2），求解用时：9.376 秒
+程序总用时：50.056 秒
+
