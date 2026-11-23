@@ -1,0 +1,22 @@
+关于 TUC-SSC2-NoLink 模型中冗余变量声明的说明
+
+本说明旨在澄清 TUC-SSC2-NoLink 优化模型在代码实现层面的一个细节问题。
+
+在构建该模型的源代码中，我们注意到关于变量 $p$ 的建模代码未被注释或删除。经详细核查与模型结构分析，特此说明：**该变量 **$p$** 仅停留在声明阶段，并未作为决策变量被实际引入到优化模型的约束条件或目标函数中。**
+
+为了验证这一点，我们通过对比 TUC-SSC2-NoLink 模型与基准 TUC-SSC2 模型的系数矩阵非零元（Non-zero elements）数量进行了确认。分析结果显示，两者的非零元数量差异完全符合预期（即仅由去除了 Link 相关约束导致），并未出现由变量 $p$ 引入的额外非零元。
+
+因此，可以确定变量 $p$ 在当前的 TUC-SSC2-NoLink 模型中是一个孤立的冗余声明，**对模型的求解结果、计算复杂度及实验结论没有任何影响**。
+
+---
+
+ Clarification on the Redundant Variable Declaration in the TUC-SSC2-NoLink Model
+
+This note serves to clarify a minor implementation detail regarding the TUC-SSC2-NoLink optimization model.
+
+In the source code used to formulate the model, we observed that the code segment defining variable $p$ was inadvertently left uncommented. Upon detailed verification and structural analysis, we confirm that **variable **$p$** exists solely as a declaration and is not integrated into the optimization model's constraints or objective function.**
+
+To validate this, we compared the number of non-zero elements in the coefficient matrix of the TUC-SSC2-NoLink model against the baseline TUC-SSC2 model. The analysis confirms that the difference in non-zero counts aligns exactly with the removal of the "Link" constraints, with no additional non-zero elements introduced by variable $p$.
+
+Therefore, variable $p$ acts as an isolated, redundant declaration in the current TUC-SSC2-NoLink formulation and **has no impact on the solution results, computational complexity, or the experimental conclusions.**
+
