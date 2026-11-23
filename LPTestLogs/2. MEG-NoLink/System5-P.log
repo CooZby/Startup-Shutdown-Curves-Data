@@ -1,0 +1,2030 @@
+--- 第1天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：209.610 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day1_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day1_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day1_MR_LP.mps
+Reading time = 24.74 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x8929cad7
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139983 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139987 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139987 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 63.09s
+Presolved: 423339 rows, 351988 columns, 59796490 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.72s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 49s
+Elapsed ordering time = 51s
+Elapsed ordering time = 59s
+Elapsed ordering time = 61s
+Elapsed ordering time = 68s
+Elapsed ordering time = 70s
+Elapsed ordering time = 77s
+Elapsed ordering time = 80s
+Ordering time: 85.78s
+
+Barrier statistics:
+ Dense cols : 8364
+ AA' NZ     : 4.699e+08
+ Factor NZ  : 6.300e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.125e+14 (roughly 250 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.24184499e+11 -4.66373388e+11  1.25e+06 1.42e+03  3.07e+07   299s
+   1   2.49703362e+11 -4.11291579e+11  4.75e+05 2.69e+03  1.50e+07   300s
+   2   1.28674605e+11 -3.58013178e+11  2.32e+05 2.32e+03  8.79e+06   300s
+   3   8.19332917e+10 -2.70857557e+11  1.46e+05 1.36e+03  5.67e+06   301s
+   4   6.56240594e+10 -2.13661801e+11  1.16e+05 8.89e+02  4.50e+06   302s
+   5   4.81157895e+10 -1.54915144e+11  8.41e+04 4.87e+02  3.28e+06   303s
+   6   2.55373220e+10 -9.90395429e+10  4.62e+04 1.72e+02  1.80e+06   303s
+   7   1.12500548e+10 -6.37441922e+10  2.44e+04 6.45e+01  8.20e+05   304s
+   8   4.92906983e+09 -3.89486194e+10  1.04e+04 1.95e+01  3.65e+05   305s
+   9   2.51024033e+09 -3.31561669e+10  5.02e+03 1.30e+01  1.95e+05   306s
+  10   1.66309272e+09 -2.26760514e+10  3.23e+03 1.45e+00  1.28e+05   306s
+  11   9.25254789e+08 -1.60384934e+10  1.70e+03 1.60e-01  7.11e+04   307s
+  12   5.70808064e+08 -1.23276925e+10  9.69e+02 8.82e-11  4.30e+04   308s
+  13   3.91738293e+08 -8.30116211e+09  6.73e+02 1.17e-10  2.66e+04   309s
+  14   2.42066731e+08 -5.47164841e+09  2.94e+02 8.73e-11  1.40e+04   309s
+  15   1.85273632e+08 -2.96687077e+09  1.84e+02 8.63e-11  7.88e+03   310s
+  16   1.41210404e+08 -1.86914642e+09  1.01e+02 9.35e-11  4.46e+03   311s
+  17   1.08142357e+08 -1.27641551e+09  5.22e+01 4.55e-11  2.58e+03   313s
+  18   8.87675249e+07 -7.84438717e+08  2.97e+01 3.27e-11  1.52e+03   314s
+  19   7.57151652e+07 -4.79635415e+08  1.62e+01 2.46e-11  8.82e+02   316s
+  20   6.60370694e+07 -3.29197169e+08  8.67e+00 2.06e-11  5.53e+02   319s
+  21   5.99426497e+07 -2.29730291e+08  4.60e+00 1.90e-11  3.65e+02   325s
+  22   5.50360351e+07 -1.67028338e+08  2.32e+00 1.53e-11  2.50e+02   336s
+
+Barrier performed 22 iterations in 382.14 seconds (1077.77 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  133384    3.4203634e+07   0.000000e+00   0.000000e+00    389s
+
+Solved in 133384 iterations and 388.85 seconds (1081.21 work units)
+Optimal objective  3.420363406e+07
+求解完成（状态=2），求解用时：388.855 秒
+程序总用时：665.424 秒
+
+--- 第2天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：206.169 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day2_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day2_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day2_MR_LP.mps
+Reading time = 24.74 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x7b04d21f
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139987 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159432 rows and 100511 columns
+Presolve time: 61.89s
+Presolved: 423337 rows, 351986 columns, 59793742 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.88s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 49s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 61s
+Elapsed ordering time = 67s
+Elapsed ordering time = 70s
+Elapsed ordering time = 77s
+Elapsed ordering time = 80s
+Ordering time: 86.37s
+
+Barrier statistics:
+ Dense cols : 1665
+ AA' NZ     : 5.223e+08
+ Factor NZ  : 8.043e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.931e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.22564173e+11 -4.66585951e+11  1.24e+06 1.42e+03  3.18e+07   308s
+   1   2.48737314e+11 -4.11910347e+11  4.73e+05 2.75e+03  1.56e+07   308s
+   2   1.29225688e+11 -3.58823838e+11  2.34e+05 2.37e+03  9.18e+06   309s
+   3   8.30710034e+10 -2.71346964e+11  1.48e+05 1.38e+03  5.95e+06   310s
+   4   6.62755367e+10 -2.13102415e+11  1.17e+05 8.95e+02  4.71e+06   310s
+   5   4.88449169e+10 -1.59393764e+11  8.54e+04 5.24e+02  3.46e+06   311s
+   6   2.51813874e+10 -1.01312494e+11  4.38e+04 2.01e+02  1.85e+06   312s
+   7   1.11448316e+10 -6.50606692e+10  2.53e+04 6.81e+01  8.47e+05   312s
+   8   5.12018605e+09 -3.95679064e+10  1.13e+04 2.02e+01  3.94e+05   313s
+   9   3.45778990e+09 -3.28154992e+10  7.36e+03 1.22e+01  2.70e+05   314s
+  10   1.90514638e+09 -2.20722173e+10  3.85e+03 1.36e+00  1.50e+05   314s
+  11   9.97734638e+08 -1.62332731e+10  1.90e+03 2.12e-01  8.02e+04   315s
+  12   7.38767157e+08 -1.37219199e+10  1.36e+03 3.21e-02  5.87e+04   316s
+  13   4.70666600e+08 -9.35519587e+09  7.93e+02 1.33e-10  3.50e+04   317s
+  14   2.63832371e+08 -6.68707258e+09  3.60e+02 1.19e-10  1.78e+04   317s
+  15   1.85243098e+08 -4.33195146e+09  1.92e+02 1.07e-10  1.01e+04   318s
+  16   1.35902351e+08 -2.32271208e+09  9.08e+01 1.14e-10  5.03e+03   319s
+  17   1.06446690e+08 -1.58409856e+09  4.78e+01 9.03e-11  3.01e+03   320s
+  18   8.91063663e+07 -1.01179861e+09  2.94e+01 5.48e-11  1.88e+03   322s
+  19   7.66196269e+07 -5.67111989e+08  1.82e+01 4.26e-11  1.07e+03   323s
+  20   6.64436494e+07 -3.57876712e+08  9.45e+00 3.09e-11  6.39e+02   326s
+  21   5.93844351e+07 -2.34515756e+08  5.21e+00 3.22e-11  3.98e+02   330s
+  22   5.50646617e+07 -1.67173351e+08  3.01e+00 3.50e-11  2.77e+02   340s
+  23   5.46474838e+07 -1.01095120e+08  2.90e+00 1.51e+03  2.23e+02   342s
+
+Barrier performed 23 iterations in 342.02 seconds (707.59 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  127522    3.1934471e+07   0.000000e+00   0.000000e+00    348s
+
+Solved in 127522 iterations and 347.66 seconds (974.15 work units)
+Optimal objective  3.193447077e+07
+求解完成（状态=2），求解用时：347.670 秒
+程序总用时：620.378 秒
+
+--- 第3天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：207.001 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day3_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day3_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day3_MR_LP.mps
+Reading time = 24.36 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x94c1a4a0
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139992 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139996 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139996 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 139996 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 61.46s
+Presolved: 423339 rows, 351979 columns, 59796481 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.85s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 49s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 60s
+Elapsed ordering time = 68s
+Elapsed ordering time = 70s
+Elapsed ordering time = 77s
+Elapsed ordering time = 80s
+Ordering time: 85.47s
+
+Barrier statistics:
+ Dense cols : 6697
+ AA' NZ     : 4.927e+08
+ Factor NZ  : 6.885e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.397e+14 (roughly 300 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23343088e+11 -4.66360060e+11  1.25e+06 1.42e+03  3.09e+07   300s
+   1   2.49303179e+11 -4.11285267e+11  4.74e+05 2.71e+03  1.52e+07   301s
+   2   1.28616057e+11 -3.58006608e+11  2.32e+05 2.33e+03  8.87e+06   301s
+   3   8.17602908e+10 -2.70749355e+11  1.45e+05 1.36e+03  5.72e+06   302s
+   4   6.54818274e+10 -2.13850128e+11  1.16e+05 8.93e+02  4.54e+06   303s
+   5   4.80131769e+10 -1.55366017e+11  8.40e+04 4.91e+02  3.31e+06   304s
+   6   2.65762066e+10 -9.95126669e+10  4.95e+04 1.72e+02  1.89e+06   304s
+   7   1.15246371e+10 -6.54267676e+10  2.50e+04 6.93e+01  8.49e+05   305s
+   8   5.09317669e+09 -3.96045975e+10  1.08e+04 2.06e+01  3.81e+05   306s
+   9   3.23975191e+09 -3.27010585e+10  6.56e+03 1.26e+01  2.47e+05   307s
+  10   1.86195896e+09 -2.19313135e+10  3.62e+03 9.41e-01  1.43e+05   308s
+  11   1.00242267e+09 -1.59753427e+10  1.83e+03 1.45e-10  7.77e+04   308s
+  12   6.42575904e+08 -1.33411660e+10  1.11e+03 1.76e-10  4.99e+04   309s
+  13   3.85488779e+08 -8.94290846e+09  5.82e+02 1.41e-10  2.75e+04   310s
+  14   2.32976801e+08 -6.43955619e+09  2.77e+02 1.11e-10  1.47e+04   311s
+  15   1.82893822e+08 -3.83714941e+09  1.72e+02 6.18e-11  8.84e+03   312s
+  16   1.35601174e+08 -2.24412343e+09  8.63e+01 6.55e-11  4.61e+03   313s
+  17   1.11357395e+08 -1.57106304e+09  5.28e+01 3.91e-11  3.01e+03   314s
+  18   9.24722288e+07 -9.92004926e+08  3.24e+01 4.82e-11  1.86e+03   315s
+  19   7.92675617e+07 -6.02879654e+08  1.89e+01 2.11e-11  1.11e+03   317s
+  20   7.05249753e+07 -3.96790041e+08  1.22e+01 2.36e-11  7.17e+02   319s
+  21   6.13672407e+07 -2.53125879e+08  5.87e+00 2.27e-11  4.22e+02   323s
+  22   5.57924044e+07 -1.84231305e+08  2.79e+00 1.55e-11  2.84e+02   332s
+
+Barrier performed 22 iterations in 438.42 seconds (1137.37 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  139025    3.3378296e+07   0.000000e+00   0.000000e+00    445s
+
+Solved in 139025 iterations and 444.52 seconds (1205.94 work units)
+Optimal objective  3.337829611e+07
+求解完成（状态=2），求解用时：444.526 秒
+程序总用时：717.694 秒
+
+--- 第4天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：206.212 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day4_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day4_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day4_MR_LP.mps
+Reading time = 25.44 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x1b4f91eb
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139982 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139986 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139986 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 64.50s
+Presolved: 423339 rows, 351989 columns, 59796491 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 14s
+Elapsed ordering time = 15s
+Ordering time: 32.35s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 49s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 61s
+Elapsed ordering time = 68s
+Elapsed ordering time = 71s
+Elapsed ordering time = 79s
+Elapsed ordering time = 81s
+Ordering time: 87.80s
+
+Barrier statistics:
+ Dense cols : 1572
+ AA' NZ     : 5.217e+08
+ Factor NZ  : 7.920e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.845e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23439526e+11 -4.66534762e+11  1.25e+06 1.42e+03  3.16e+07   316s
+   1   2.49349304e+11 -4.11815250e+11  4.74e+05 2.74e+03  1.55e+07   317s
+   2   1.29152352e+11 -3.58739311e+11  2.34e+05 2.36e+03  9.11e+06   317s
+   3   8.32739739e+10 -2.71093032e+11  1.48e+05 1.37e+03  5.92e+06   318s
+   4   6.64460318e+10 -2.12647922e+11  1.17e+05 8.89e+02  4.68e+06   319s
+   5   4.90711075e+10 -1.58052338e+11  8.60e+04 5.13e+02  3.45e+06   320s
+   6   2.51710780e+10 -1.00883852e+11  4.38e+04 1.98e+02  1.83e+06   321s
+   7   1.10932164e+10 -6.44908965e+10  2.52e+04 6.84e+01  8.36e+05   321s
+   8   5.08937605e+09 -3.90943337e+10  1.12e+04 1.91e+01  3.88e+05   322s
+   9   3.22556152e+09 -3.24453144e+10  6.78e+03 1.15e+01  2.51e+05   323s
+  10   1.87379981e+09 -2.22333393e+10  3.76e+03 1.15e+00  1.47e+05   323s
+  11   1.00222354e+09 -1.60976487e+10  1.90e+03 3.20e-03  7.94e+04   324s
+  12   6.31843536e+08 -1.28409924e+10  1.12e+03 1.55e-10  4.95e+04   325s
+  13   3.66783821e+08 -1.02218809e+10  7.30e+02 1.51e-10  2.81e+04   326s
+  14   2.78264388e+08 -6.96205417e+09  4.84e+02 2.34e-10  1.84e+04   327s
+  15   1.90113690e+08 -4.58330179e+09  3.42e+02 1.03e-10  1.02e+04   327s
+  16   1.54925156e+08 -3.00990006e+09  2.45e+02 8.20e-11  6.57e+03   328s
+  17   1.16967228e+08 -1.80607003e+09  1.15e+02 1.02e-10  3.48e+03   329s
+  18   1.01008179e+08 -1.16898198e+09  7.93e+01 5.68e-11  2.31e+03   330s
+  19   8.75470010e+07 -7.30985192e+08  5.40e+01 9.80e-11  1.49e+03   332s
+  20   7.33088948e+07 -4.92838410e+08  2.78e+01 3.25e-11  8.90e+02   334s
+  21   6.32149564e+07 -3.27647018e+08  1.37e+01 3.27e-11  5.33e+02   337s
+
+Barrier performed 21 iterations in 336.77 seconds (643.67 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  126308    3.2918738e+07   0.000000e+00   0.000000e+00    343s
+
+Solved in 126308 iterations and 342.68 seconds (942.58 work units)
+Optimal objective  3.291873840e+07
+求解完成（状态=2），求解用时：342.693 秒
+程序总用时：616.228 秒
+
+--- 第5天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：210.171 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day5_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day5_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day5_MR_LP.mps
+Reading time = 24.68 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xbc52d3e9
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139998 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 140002 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 140002 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 140002 rows and 100511 columns (presolve time = 21s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 63.44s
+Presolved: 423338 rows, 351974 columns, 59795393 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 33.18s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 50s
+Elapsed ordering time = 52s
+Elapsed ordering time = 59s
+Elapsed ordering time = 61s
+Elapsed ordering time = 69s
+Elapsed ordering time = 71s
+Elapsed ordering time = 79s
+Elapsed ordering time = 81s
+Ordering time: 87.32s
+
+Barrier statistics:
+ Dense cols : 4924
+ AA' NZ     : 4.940e+08
+ Factor NZ  : 8.125e+09 (roughly 70.0 GB of memory)
+ Factor Ops : 1.952e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.26206855e+11 -4.65908540e+11  1.25e+06 1.42e+03  3.15e+07   311s
+   1   2.50709414e+11 -4.10448121e+11  4.77e+05 2.65e+03  1.55e+07   312s
+   2   1.28962432e+11 -3.56155749e+11  2.33e+05 2.32e+03  9.00e+06   312s
+   3   8.37415071e+10 -2.69208364e+11  1.49e+05 1.35e+03  5.88e+06   313s
+   4   6.67750526e+10 -2.10539657e+11  1.27e+05 8.65e+02  4.64e+06   313s
+   5   4.87711246e+10 -1.62339212e+11  1.09e+05 5.39e+02  3.40e+06   314s
+   6   2.61809595e+10 -1.01743526e+11  4.55e+04 2.02e+02  1.88e+06   315s
+   7   1.17960723e+10 -6.46450284e+10  2.41e+04 6.51e+01  8.77e+05   315s
+   8   5.42408278e+09 -3.94930446e+10  1.11e+04 1.75e+01  4.04e+05   316s
+   9   3.74976531e+09 -3.09688077e+10  7.51e+03 9.16e+00  2.78e+05   316s
+  10   2.02670005e+09 -2.48616164e+10  3.88e+03 2.67e+00  1.56e+05   317s
+  11   1.17240722e+09 -1.75417748e+10  2.12e+03 8.27e-01  9.02e+04   317s
+  12   6.59751576e+08 -1.35345215e+10  1.10e+03 3.00e-01  5.07e+04   318s
+  13   5.03234012e+08 -1.09504857e+10  8.21e+02 7.95e-02  3.70e+04   319s
+  14   3.51503080e+08 -7.46303892e+09  7.01e+02 1.37e-10  2.31e+04   319s
+  15   2.49973044e+08 -4.63566816e+09  3.79e+02 1.33e-10  1.34e+04   320s
+  16   1.85607089e+08 -2.81904917e+09  2.22e+02 9.38e-11  7.64e+03   321s
+  17   1.38772050e+08 -1.76611029e+09  1.10e+02 7.24e-11  4.15e+03   322s
+  18   1.09375400e+08 -1.22571761e+09  6.58e+01 7.17e-11  2.62e+03   323s
+  19   8.99151252e+07 -7.46426614e+08  3.69e+01 4.12e-11  1.52e+03   324s
+  20   7.57664969e+07 -4.71435266e+08  1.98e+01 2.27e-11  8.91e+02   325s
+  21   6.60126979e+07 -3.28993000e+08  1.00e+01 1.57e-11  5.53e+02   328s
+  22   6.08105100e+07 -2.33616569e+08  5.70e+00 1.69e-11  3.76e+02   334s
+  23   5.61437404e+07 -1.80258411e+08  3.08e+00 1.68e-11  2.68e+02   344s
+  24   5.33964909e+07 -9.92587709e+07  1.75e+00 1.44e-11  1.69e+02   356s
+  25   5.29991692e+07 -4.25985983e+07  1.55e+00 1.29e+04  1.27e+02   357s
+
+Barrier performed 25 iterations in 356.72 seconds (777.66 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  132911    3.5347667e+07   0.000000e+00   0.000000e+00    362s
+
+Solved in 132911 iterations and 362.44 seconds (1026.03 work units)
+Optimal objective  3.534766697e+07
+求解完成（状态=2），求解用时：362.452 秒
+程序总用时：639.868 秒
+
+--- 第6天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：207.229 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day6_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day6_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day6_MR_LP.mps
+Reading time = 25.43 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xc03a9d89
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139990 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139994 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139994 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 62.75s
+Presolved: 423339 rows, 351981 columns, 59796483 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.10s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 49s
+Elapsed ordering time = 52s
+Elapsed ordering time = 59s
+Elapsed ordering time = 62s
+Elapsed ordering time = 69s
+Elapsed ordering time = 71s
+Elapsed ordering time = 78s
+Elapsed ordering time = 80s
+Ordering time: 87.33s
+
+Barrier statistics:
+ Dense cols : 7482
+ AA' NZ     : 4.882e+08
+ Factor NZ  : 6.591e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.258e+14 (roughly 300 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23299174e+11 -4.66481773e+11  1.25e+06 1.42e+03  3.08e+07   298s
+   1   2.49409791e+11 -4.11398892e+11  4.74e+05 2.70e+03  1.51e+07   298s
+   2   1.28696860e+11 -3.58142995e+11  2.33e+05 2.33e+03  8.84e+06   299s
+   3   8.18685397e+10 -2.70799560e+11  1.46e+05 1.36e+03  5.70e+06   300s
+   4   6.55576491e+10 -2.13830465e+11  1.16e+05 8.92e+02  4.53e+06   300s
+   5   4.80330240e+10 -1.55271819e+11  8.40e+04 4.91e+02  3.30e+06   301s
+   6   2.49534703e+10 -9.94431158e+10  4.35e+04 1.77e+02  1.77e+06   302s
+   7   1.11175742e+10 -6.36316751e+10  2.40e+04 6.48e+01  8.17e+05   303s
+   8   4.88909891e+09 -3.89715435e+10  1.03e+04 1.98e+01  3.65e+05   303s
+   9   2.61067458e+09 -3.30456450e+10  5.29e+03 1.31e+01  2.03e+05   304s
+  10   1.64129398e+09 -2.23816257e+10  3.22e+03 1.23e+00  1.27e+05   305s
+  11   8.47198877e+08 -1.64150144e+10  1.56e+03 1.31e-01  6.70e+04   306s
+  12   6.03403901e+08 -1.32368396e+10  1.05e+03 1.15e-10  4.68e+04   306s
+  13   3.87617869e+08 -9.49619992e+09  6.79e+02 1.04e-10  2.82e+04   307s
+  14   2.75778619e+08 -5.65383983e+09  4.20e+02 8.73e-11  1.66e+04   308s
+  15   1.82165801e+08 -3.19445030e+09  2.22e+02 6.51e-11  8.32e+03   309s
+  16   1.28800709e+08 -1.86621972e+09  1.07e+02 5.64e-11  4.07e+03   310s
+  17   1.00020138e+08 -1.24116417e+09  5.42e+01 5.55e-11  2.36e+03   311s
+  18   8.17254794e+07 -7.71880642e+08  2.93e+01 3.00e-11  1.38e+03   313s
+  19   6.94651916e+07 -5.35750791e+08  1.45e+01 2.27e-11  8.42e+02   315s
+  20   6.02877509e+07 -3.63638382e+08  6.11e+00 1.73e-11  5.10e+02   319s
+  21   5.92479399e+07 -2.09836859e+08  5.24e+00 1.36e+04  3.98e+02   321s
+
+Barrier performed 21 iterations in 321.30 seconds (655.02 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  125433    3.2533584e+07   0.000000e+00   0.000000e+00    327s
+
+Solved in 125433 iterations and 327.29 seconds (940.03 work units)
+Optimal objective  3.253358355e+07
+求解完成（状态=2），求解用时：327.294 秒
+程序总用时：601.703 秒
+
+--- 第7天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：212.453 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day7_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day7_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day7_MR_LP.mps
+Reading time = 26.28 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x2fa01b2f
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139987 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 21s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 63.60s
+Presolved: 423338 rows, 351985 columns, 59794824 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 30.49s
+Elapsed ordering time = 31s
+Elapsed ordering time = 38s
+Elapsed ordering time = 40s
+Elapsed ordering time = 47s
+Elapsed ordering time = 50s
+Elapsed ordering time = 57s
+Elapsed ordering time = 60s
+Elapsed ordering time = 68s
+Elapsed ordering time = 70s
+Elapsed ordering time = 77s
+Elapsed ordering time = 80s
+Ordering time: 85.49s
+
+Barrier statistics:
+ Dense cols : 5056
+ AA' NZ     : 5.045e+08
+ Factor NZ  : 7.560e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.718e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23429552e+11 -4.66662538e+11  1.25e+06 1.42e+03  3.12e+07   315s
+   1   2.50275562e+11 -4.11704251e+11  4.76e+05 2.72e+03  1.54e+07   315s
+   2   1.29213261e+11 -3.58570816e+11  2.34e+05 2.35e+03  8.98e+06   316s
+   3   8.19449344e+10 -2.71112056e+11  1.46e+05 1.36e+03  5.78e+06   316s
+   4   6.56320815e+10 -2.14243402e+11  1.16e+05 8.97e+02  4.59e+06   317s
+   5   4.82023243e+10 -1.55441979e+11  8.43e+04 4.91e+02  3.36e+06   318s
+   6   2.64097415e+10 -9.95226589e+10  4.95e+04 1.72e+02  1.90e+06   318s
+   7   1.15162701e+10 -6.53395043e+10  2.50e+04 6.89e+01  8.57e+05   319s
+   8   5.09661585e+09 -3.96375446e+10  1.08e+04 2.06e+01  3.85e+05   320s
+   9   3.21748604e+09 -3.30553433e+10  6.62e+03 1.31e+01  2.48e+05   320s
+  10   1.87621939e+09 -2.22931730e+10  3.71e+03 8.20e-01  1.46e+05   321s
+  11   1.01553789e+09 -1.60872123e+10  1.89e+03 9.27e-02  7.92e+04   322s
+  12   6.24472744e+08 -1.28879490e+10  1.09e+03 1.56e-10  4.85e+04   322s
+  13   4.12539393e+08 -8.85517176e+09  6.54e+02 1.64e-10  2.94e+04   323s
+  14   2.38469397e+08 -6.21742903e+09  3.40e+02 1.16e-10  1.51e+04   324s
+  15   1.82514264e+08 -3.98200037e+09  2.08e+02 8.08e-11  9.20e+03   324s
+  16   1.31451343e+08 -2.11977567e+09  1.01e+02 8.41e-11  4.50e+03   325s
+  17   1.02556166e+08 -1.44131872e+09  5.30e+01 6.28e-11  2.67e+03   326s
+  18   8.61495633e+07 -9.07735070e+08  3.27e+01 4.58e-11  1.65e+03   328s
+  19   7.36980125e+07 -5.56865042e+08  1.84e+01 4.64e-11  9.66e+02   329s
+  20   6.69705604e+07 -3.54156548e+08  1.20e+01 3.29e-11  6.20e+02   332s
+  21   5.91567255e+07 -2.36407647e+08  6.02e+00 1.36e-11  3.84e+02   336s
+  22   5.43364866e+07 -1.80314852e+08  3.14e+00 1.55e-11  2.75e+02   344s
+  23   5.05290521e+07 -8.96585232e+07  1.52e+00 1.75e-11  1.55e+02   353s
+  24   4.79674913e+07 -4.42186206e+07  1.00e+00 1.49e-11  1.00e+02   365s
+
+Barrier performed 24 iterations in 390.04 seconds (1337.16 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  124733    3.2024963e+07   0.000000e+00   0.000000e+00    398s
+
+Solved in 124733 iterations and 397.75 seconds (989.62 work units)
+Optimal objective  3.202496289e+07
+求解完成（状态=2），求解用时：397.751 秒
+程序总用时：678.105 秒
+
+--- 第8天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：216.300 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day8_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day8_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day8_MR_LP.mps
+Reading time = 25.02 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x85ceebab
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139984 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139988 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139988 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 67.08s
+Presolved: 423339 rows, 351987 columns, 59796489 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 31.76s
+Elapsed ordering time = 32s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 49s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 60s
+Elapsed ordering time = 67s
+Elapsed ordering time = 70s
+Elapsed ordering time = 76s
+Elapsed ordering time = 80s
+Ordering time: 85.12s
+
+Barrier statistics:
+ Dense cols : 8399
+ AA' NZ     : 4.698e+08
+ Factor NZ  : 6.294e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.120e+14 (roughly 260 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23778803e+11 -4.66544076e+11  1.25e+06 1.42e+03  3.08e+07   303s
+   1   2.49390620e+11 -4.11411272e+11  4.74e+05 2.70e+03  1.51e+07   303s
+   2   1.28651050e+11 -3.58059817e+11  2.33e+05 2.33e+03  8.81e+06   304s
+   3   8.18633850e+10 -2.70747131e+11  1.46e+05 1.36e+03  5.68e+06   304s
+   4   6.56048352e+10 -2.13657997e+11  1.16e+05 8.89e+02  4.51e+06   305s
+   5   4.80877787e+10 -1.54968619e+11  8.41e+04 4.88e+02  3.29e+06   306s
+   6   2.68274897e+10 -9.92137100e+10  4.98e+04 1.70e+02  1.89e+06   306s
+   7   1.15769629e+10 -6.53729503e+10  2.52e+04 6.91e+01  8.46e+05   307s
+   8   5.11298357e+09 -3.94771885e+10  1.08e+04 2.01e+01  3.79e+05   308s
+   9   3.19493441e+09 -3.25013837e+10  6.47e+03 1.21e+01  2.42e+05   308s
+  10   1.85934492e+09 -2.20328053e+10  3.59e+03 1.06e+00  1.41e+05   309s
+  11   1.00271474e+09 -1.59697412e+10  1.83e+03 2.40e-01  7.65e+04   310s
+  12   6.42542069e+08 -1.30650724e+10  1.10e+03 1.29e-02  4.88e+04   310s
+  13   3.77010892e+08 -8.55111636e+09  5.66e+02 2.32e-10  2.61e+04   311s
+  14   2.24474131e+08 -6.21412644e+09  2.61e+02 1.85e-10  1.38e+04   312s
+  15   1.83180461e+08 -3.71773741e+09  1.74e+02 1.85e-10  8.60e+03   312s
+  16   1.33818337e+08 -2.08784477e+09  8.02e+01 1.69e-10  4.33e+03   313s
+  17   1.10252521e+08 -1.46813682e+09  4.92e+01 1.19e-10  2.86e+03   314s
+  18   9.48506220e+07 -9.52964581e+08  3.32e+01 6.67e-11  1.88e+03   316s
+  19   7.97231508e+07 -5.73491992e+08  1.86e+01 5.23e-11  1.09e+03   317s
+  20   6.99737919e+07 -3.78841323e+08  1.12e+01 4.34e-11  6.94e+02   319s
+  21   6.35262964e+07 -2.42459574e+08  6.74e+00 3.01e-11  4.41e+02   323s
+  22   5.62738743e+07 -1.97592981e+08  4.21e+00 3.11e-11  3.04e+02   330s
+
+Barrier performed 22 iterations in 385.50 seconds (1031.09 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  131097    3.3459314e+07   0.000000e+00   0.000000e+00    392s
+
+Solved in 131097 iterations and 391.59 seconds (996.56 work units)
+Optimal objective  3.345931351e+07
+求解完成（状态=2），求解用时：391.603 秒
+程序总用时：675.617 秒
+
+--- 第9天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：204.541 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day9_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day9_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day9_MR_LP.mps
+Reading time = 23.80 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x7d2efbe3
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139983 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139987 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139987 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 139987 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 61.32s
+Presolved: 423338 rows, 351989 columns, 59794828 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 29.63s
+Elapsed ordering time = 30s
+Elapsed ordering time = 37s
+Elapsed ordering time = 40s
+Elapsed ordering time = 46s
+Elapsed ordering time = 50s
+Elapsed ordering time = 55s
+Elapsed ordering time = 65s
+Elapsed ordering time = 67s
+Elapsed ordering time = 74s
+Elapsed ordering time = 77s
+Ordering time: 84.15s
+
+Barrier statistics:
+ Dense cols : 1438
+ AA' NZ     : 5.228e+08
+ Factor NZ  : 8.109e+09 (roughly 70.0 GB of memory)
+ Factor Ops : 1.941e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23022466e+11 -4.66693890e+11  1.25e+06 1.42e+03  3.15e+07   307s
+   1   2.49633608e+11 -4.11868385e+11  4.75e+05 2.74e+03  1.55e+07   307s
+   2   1.29219746e+11 -3.58877777e+11  2.34e+05 2.36e+03  9.09e+06   308s
+   3   8.33595347e+10 -2.71146586e+11  1.48e+05 1.37e+03  5.91e+06   308s
+   4   6.64855309e+10 -2.12498793e+11  1.17e+05 8.87e+02  4.67e+06   309s
+   5   4.89977938e+10 -1.59044963e+11  8.88e+04 5.20e+02  3.44e+06   310s
+   6   2.53244845e+10 -1.01082458e+11  4.41e+04 2.00e+02  1.84e+06   311s
+   7   1.12204070e+10 -6.46464160e+10  2.57e+04 6.78e+01  8.42e+05   312s
+   8   5.17509156e+09 -3.93730194e+10  1.15e+04 1.99e+01  3.93e+05   312s
+   9   3.63519815e+09 -3.27539348e+10  7.83e+03 1.23e+01  2.79e+05   313s
+  10   1.94703982e+09 -2.18873396e+10  3.99e+03 6.02e-01  1.52e+05   314s
+  11   1.00822048e+09 -1.59480983e+10  1.95e+03 1.43e-10  7.98e+04   314s
+  12   6.64440840e+08 -1.30597437e+10  1.21e+03 1.48e-10  5.22e+04   315s
+  13   4.32166493e+08 -9.13149823e+09  7.48e+02 2.61e-10  3.16e+04   315s
+  14   3.37129148e+08 -6.50346001e+09  5.44e+02 2.08e-10  2.21e+04   316s
+  15   2.08190755e+08 -4.38400551e+09  3.22e+02 9.00e-11  1.13e+04   317s
+  16   1.70413738e+08 -2.40546930e+09  1.98e+02 1.05e-10  6.92e+03   317s
+  17   1.22971068e+08 -1.52281663e+09  9.43e+01 7.89e-11  3.50e+03   318s
+  18   9.99326399e+07 -1.01226014e+09  6.06e+01 4.79e-11  2.18e+03   319s
+  19   8.55314869e+07 -6.37564113e+08  3.66e+01 1.03e-10  1.37e+03   321s
+  20   7.05053181e+07 -4.04332899e+08  1.84e+01 5.46e-11  7.54e+02   323s
+  21   6.03641085e+07 -2.82957245e+08  8.67e+00 3.21e-11  4.50e+02   327s
+  22   5.54365247e+07 -2.34168139e+08  4.39e+00 3.06e-11  3.36e+02   338s
+  23   5.37288191e+07 -1.58453080e+08  3.33e+00 8.67e+03  2.43e+02   349s
+
+Barrier performed 23 iterations in 348.92 seconds (746.81 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  128416    3.2468383e+07   0.000000e+00   0.000000e+00    354s
+
+Solved in 128416 iterations and 354.36 seconds (1014.26 work units)
+Optimal objective  3.246838332e+07
+求解完成（状态=2），求解用时：354.367 秒
+程序总用时：623.510 秒
+
+--- 第10天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：219.073 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day10_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day10_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day10_MR_LP.mps
+Reading time = 24.98 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xffb7d0e1
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 140020 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 140024 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 140024 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 62.92s
+Presolved: 423338 rows, 351952 columns, 59795371 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 14s
+Elapsed ordering time = 15s
+Ordering time: 31.49s
+Elapsed ordering time = 32s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 49s
+Elapsed ordering time = 52s
+Elapsed ordering time = 59s
+Elapsed ordering time = 62s
+Elapsed ordering time = 69s
+Elapsed ordering time = 71s
+Elapsed ordering time = 79s
+Elapsed ordering time = 81s
+Ordering time: 87.57s
+
+Barrier statistics:
+ Dense cols : 996
+ AA' NZ     : 5.258e+08
+ Factor NZ  : 8.209e+09 (roughly 70.0 GB of memory)
+ Factor Ops : 1.956e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.26337266e+11 -4.65417643e+11  1.25e+06 1.42e+03  3.13e+07   322s
+   1   2.50634749e+11 -4.09971918e+11  4.77e+05 2.64e+03  1.53e+07   322s
+   2   1.28765925e+11 -3.55746670e+11  2.33e+05 2.31e+03  8.93e+06   323s
+   3   8.21870710e+10 -2.70580980e+11  1.46e+05 1.36e+03  5.78e+06   323s
+   4   6.57748674e+10 -2.13596886e+11  1.16e+05 8.90e+02  4.58e+06   324s
+   5   4.82655425e+10 -1.55024471e+11  8.44e+04 4.87e+02  3.35e+06   325s
+   6   2.65454825e+10 -9.90505166e+10  4.90e+04 1.70e+02  1.90e+06   326s
+   7   1.14187230e+10 -6.50349732e+10  2.48e+04 6.63e+01  8.47e+05   326s
+   8   5.02961958e+09 -3.95511719e+10  1.06e+04 1.97e+01  3.78e+05   327s
+   9   3.50187679e+09 -3.28704102e+10  7.16e+03 1.23e+01  2.66e+05   328s
+  10   1.90647886e+09 -2.20651963e+10  3.71e+03 3.73e-01  1.46e+05   328s
+  11   1.01067389e+09 -1.70795777e+10  1.84e+03 1.26e-10  7.89e+04   329s
+  12   6.32161604e+08 -1.27960370e+10  1.07e+03 1.09e-10  4.79e+04   330s
+  13   4.76973600e+08 -9.45436655e+09  7.92e+02 9.37e-11  3.36e+04   331s
+  14   3.55692546e+08 -7.13494197e+09  6.19e+02 9.82e-11  2.29e+04   331s
+  15   2.27909737e+08 -4.32800160e+09  3.25e+02 5.91e-11  1.17e+04   332s
+  16   1.79165402e+08 -2.39935230e+09  2.07e+02 3.97e-11  6.79e+03   333s
+  17   1.30693720e+08 -1.66413169e+09  9.01e+01 4.82e-11  3.71e+03   334s
+  18   1.06126053e+08 -1.06623360e+09  5.30e+01 3.00e-11  2.24e+03   335s
+  19   9.40505175e+07 -6.90415487e+08  3.68e+01 2.91e-11  1.48e+03   337s
+  20   8.22293207e+07 -4.33537826e+08  2.32e+01 2.02e-11  9.25e+02   339s
+  21   7.20034945e+07 -2.79675119e+08  1.37e+01 1.52e-11  5.72e+02   342s
+  22   6.36600371e+07 -1.85454661e+08  7.05e+00 1.37e-11  3.51e+02   349s
+  23   5.79491637e+07 -1.52357678e+08  3.49e+00 1.47e-11  2.56e+02   364s
+
+Barrier performed 23 iterations in 661.36 seconds (1964.54 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  168845    3.6488354e+07   0.000000e+00   0.000000e+00    669s
+
+Solved in 168845 iterations and 668.78 seconds (1764.22 work units)
+Optimal objective  3.648835441e+07
+求解完成（状态=2），求解用时：668.796 秒
+程序总用时：954.611 秒
+
+--- 第11天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：213.195 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day11_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day11_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day11_MR_LP.mps
+Reading time = 24.50 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x9b6c9723
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139986 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139990 rows and 100511 columns (presolve time = 17s)...
+Presolve removed 139990 rows and 100511 columns (presolve time = 23s)...
+Presolve removed 139990 rows and 100511 columns (presolve time = 26s)...
+Presolve removed 159430 rows and 100511 columns
+Presolve time: 65.73s
+Presolved: 423339 rows, 351985 columns, 59796487 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.50s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 50s
+Elapsed ordering time = 55s
+Elapsed ordering time = 61s
+Elapsed ordering time = 65s
+Elapsed ordering time = 70s
+Elapsed ordering time = 72s
+Elapsed ordering time = 78s
+Elapsed ordering time = 80s
+Ordering time: 86.42s
+
+Barrier statistics:
+ Dense cols : 8007
+ AA' NZ     : 4.813e+08
+ Factor NZ  : 6.318e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.131e+14 (roughly 260 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23158049e+11 -4.66683533e+11  1.25e+06 1.42e+03  3.07e+07   305s
+   1   2.49305298e+11 -4.11496924e+11  4.74e+05 2.70e+03  1.50e+07   305s
+   2   1.28580613e+11 -3.58162920e+11  2.32e+05 2.32e+03  8.79e+06   306s
+   3   8.18927562e+10 -2.70751705e+11  1.46e+05 1.35e+03  5.67e+06   307s
+   4   6.56086834e+10 -2.13604381e+11  1.16e+05 8.89e+02  4.50e+06   307s
+   5   4.80942801e+10 -1.54809690e+11  8.41e+04 4.87e+02  3.29e+06   308s
+   6   2.67418920e+10 -9.91426550e+10  4.96e+04 1.71e+02  1.88e+06   309s
+   7   1.15883275e+10 -6.47482336e+10  2.51e+04 6.78e+01  8.46e+05   309s
+   8   5.09977132e+09 -3.92593359e+10  1.08e+04 2.00e+01  3.78e+05   310s
+   9   3.20487821e+09 -3.23955986e+10  6.48e+03 1.22e+01  2.42e+05   310s
+  10   1.88243713e+09 -2.20941667e+10  3.64e+03 1.09e+00  1.43e+05   311s
+  11   1.02217317e+09 -1.60243708e+10  1.88e+03 2.41e-01  7.81e+04   312s
+  12   7.45083537e+08 -1.14089598e+10  1.32e+03 1.14e-10  5.42e+04   312s
+  13   4.19864613e+08 -8.35110373e+09  7.08e+02 1.14e-10  2.92e+04   313s
+  14   3.01422261e+08 -5.99944477e+09  4.19e+02 8.13e-11  1.88e+04   313s
+  15   1.96096084e+08 -3.94880210e+09  2.34e+02 8.55e-11  1.00e+04   314s
+  16   1.58627298e+08 -2.11832089e+09  1.33e+02 5.00e-11  5.92e+03   315s
+  17   1.11504467e+08 -1.36345672e+09  6.58e+01 5.09e-11  2.94e+03   316s
+  18   9.28077647e+07 -8.57401298e+08  4.14e+01 3.07e-11  1.80e+03   317s
+  19   7.93640075e+07 -5.08923053e+08  2.60e+01 3.00e-11  1.08e+03   319s
+  20   6.77734797e+07 -2.94757783e+08  1.26e+01 2.00e-11  5.90e+02   321s
+  21   6.00317645e+07 -1.94237998e+08  7.03e+00 1.92e-11  3.64e+02   326s
+  22   5.45511619e+07 -1.48260596e+08  3.65e+00 1.17e-11  2.53e+02   335s
+
+Barrier performed 22 iterations in 353.81 seconds (1049.55 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  122213    3.1843480e+07   0.000000e+00   0.000000e+00    362s
+
+Solved in 122213 iterations and 361.56 seconds (922.55 work units)
+Optimal objective  3.184348022e+07
+求解完成（状态=2），求解用时：361.571 秒
+程序总用时：640.898 秒
+
+--- 第12天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：204.677 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day12_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day12_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day12_MR_LP.mps
+Reading time = 24.15 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xaf362445
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139990 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139994 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139994 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 61.65s
+Presolved: 423338 rows, 351982 columns, 59794821 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 33.31s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 41s
+Elapsed ordering time = 45s
+Elapsed ordering time = 51s
+Elapsed ordering time = 55s
+Elapsed ordering time = 61s
+Elapsed ordering time = 65s
+Elapsed ordering time = 71s
+Elapsed ordering time = 75s
+Elapsed ordering time = 81s
+Elapsed ordering time = 85s
+Ordering time: 89.93s
+
+Barrier statistics:
+ Dense cols : 2703
+ AA' NZ     : 5.097e+08
+ Factor NZ  : 8.133e+09 (roughly 70.0 GB of memory)
+ Factor Ops : 1.946e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23172558e+11 -4.66662531e+11  1.25e+06 1.42e+03  3.15e+07   312s
+   1   2.49600101e+11 -4.11762143e+11  4.75e+05 2.73e+03  1.55e+07   313s
+   2   1.29136195e+11 -3.58647919e+11  2.34e+05 2.36e+03  9.06e+06   313s
+   3   8.34136072e+10 -2.70902222e+11  1.48e+05 1.37e+03  5.90e+06   314s
+   4   6.65645354e+10 -2.12266922e+11  1.17e+05 8.85e+02  4.66e+06   315s
+   5   4.90319540e+10 -1.59223923e+11  8.98e+04 5.21e+02  3.43e+06   315s
+   6   2.54554201e+10 -1.01052915e+11  4.43e+04 2.00e+02  1.84e+06   316s
+   7   1.13885672e+10 -6.48536017e+10  2.61e+04 6.72e+01  8.52e+05   317s
+   8   5.21530434e+09 -3.92655630e+10  1.16e+04 1.96e+01  3.95e+05   317s
+   9   3.62131042e+09 -3.25349567e+10  7.79e+03 1.18e+01  2.77e+05   318s
+  10   1.93432673e+09 -2.16564830e+10  3.96e+03 5.33e-01  1.50e+05   318s
+  11   1.06002144e+09 -1.59018381e+10  2.06e+03 1.69e-10  8.35e+04   319s
+  12   7.83867285e+08 -1.34841623e+10  1.47e+03 1.52e-10  6.11e+04   320s
+  13   4.53056157e+08 -9.44566811e+09  7.68e+02 1.31e-10  3.37e+04   320s
+  14   2.68410540e+08 -6.89053137e+09  3.77e+02 1.13e-10  1.82e+04   321s
+  15   2.14397795e+08 -4.01134936e+09  2.75e+02 2.32e+04  1.14e+04   321s
+
+Barrier performed 15 iterations in 321.45 seconds (608.04 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  124961    3.1187318e+07   0.000000e+00   0.000000e+00    327s
+
+Solved in 124961 iterations and 327.02 seconds (941.95 work units)
+Optimal objective  3.118731818e+07
+求解完成（状态=2），求解用时：327.033 秒
+程序总用时：597.414 秒
+
+--- 第13天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：211.027 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day13_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day13_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day13_MR_LP.mps
+Reading time = 24.28 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x76adc35f
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139987 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 62.74s
+Presolved: 423338 rows, 351985 columns, 59794824 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 29.79s
+Elapsed ordering time = 30s
+Elapsed ordering time = 37s
+Elapsed ordering time = 40s
+Elapsed ordering time = 47s
+Elapsed ordering time = 50s
+Elapsed ordering time = 58s
+Elapsed ordering time = 60s
+Elapsed ordering time = 67s
+Elapsed ordering time = 70s
+Elapsed ordering time = 77s
+Elapsed ordering time = 80s
+Ordering time: 86.29s
+
+Barrier statistics:
+ Dense cols : 2544
+ AA' NZ     : 5.205e+08
+ Factor NZ  : 7.961e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.898e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23208282e+11 -4.66654982e+11  1.25e+06 1.42e+03  3.15e+07   308s
+   1   2.49585868e+11 -4.11824269e+11  4.75e+05 2.74e+03  1.55e+07   309s
+   2   1.29244671e+11 -3.58823295e+11  2.34e+05 2.36e+03  9.08e+06   309s
+   3   8.34106565e+10 -2.71082219e+11  1.48e+05 1.37e+03  5.90e+06   310s
+   4   6.65438480e+10 -2.12461239e+11  1.17e+05 8.87e+02  4.67e+06   311s
+   5   4.89635072e+10 -1.59602639e+11  8.88e+04 5.24e+02  3.43e+06   311s
+   6   2.54853408e+10 -1.01243609e+11  4.43e+04 2.01e+02  1.85e+06   312s
+   7   1.13044444e+10 -6.52343385e+10  2.60e+04 6.96e+01  8.47e+05   313s
+   8   5.17967498e+09 -3.95017611e+10  1.15e+04 1.98e+01  3.93e+05   313s
+   9   3.54915401e+09 -3.27016247e+10  7.65e+03 1.19e+01  2.73e+05   314s
+  10   1.90326025e+09 -2.18630623e+10  3.90e+03 7.60e-01  1.48e+05   315s
+  11   9.94129249e+08 -1.58575407e+10  1.92e+03 1.45e-10  7.86e+04   316s
+  12   6.63987223e+08 -1.31850847e+10  1.22e+03 1.31e-10  5.23e+04   316s
+  13   3.77571639e+08 -9.05530925e+09  6.05e+02 9.37e-11  2.77e+04   317s
+  14   2.35007691e+08 -6.29860928e+09  3.04e+02 9.73e-11  1.51e+04   318s
+  15   1.83356583e+08 -3.92017051e+09  1.90e+02 5.24e-11  9.27e+03   319s
+  16   1.31901584e+08 -2.14724667e+09  9.68e+01 6.09e-11  4.61e+03   319s
+  17   1.04494789e+08 -1.48262465e+09  5.90e+01 3.46e-11  2.82e+03   320s
+  18   8.74534003e+07 -9.25679926e+08  3.80e+01 3.46e-11  1.72e+03   322s
+  19   7.46836741e+07 -5.52287431e+08  2.15e+01 2.55e-11  9.94e+02   324s
+  20   6.72705294e+07 -3.57872352e+08  1.45e+01 2.05e-11  6.46e+02   326s
+  21   5.99389421e+07 -2.29541553e+08  8.33e+00 1.55e-11  3.96e+02   331s
+  22   5.44483666e+07 -1.72893690e+08  4.17e+00 1.36e-11  2.74e+02   340s
+  23   5.04282940e+07 -8.88673402e+07  1.98e+00 1.55e-11  1.57e+02   351s
+  24   4.79860524e+07 -4.46047793e+07  1.34e+00 1.61e-11  1.02e+02   361s
+
+Barrier performed 24 iterations in 379.96 seconds (1394.66 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  130823    3.2090938e+07   0.000000e+00   0.000000e+00    387s
+
+Solved in 130823 iterations and 386.87 seconds (1017.17 work units)
+Optimal objective  3.209093795e+07
+求解完成（状态=2），求解用时：386.885 秒
+程序总用时：663.912 秒
+
+--- 第14天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：205.113 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day14_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day14_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day14_MR_LP.mps
+Reading time = 24.31 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x7db66109
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 140023 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 140027 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 140027 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 140027 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 63.12s
+Presolved: 423338 rows, 351949 columns, 59795368 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.23s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 41s
+Elapsed ordering time = 48s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 60s
+Elapsed ordering time = 67s
+Elapsed ordering time = 70s
+Elapsed ordering time = 76s
+Elapsed ordering time = 80s
+Ordering time: 83.89s
+
+Barrier statistics:
+ Dense cols : 8404
+ AA' NZ     : 4.702e+08
+ Factor NZ  : 6.275e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.117e+14 (roughly 250 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.26631358e+11 -4.65193433e+11  1.25e+06 1.42e+03  3.09e+07   292s
+   1   2.50514019e+11 -4.09640216e+11  4.76e+05 2.62e+03  1.51e+07   293s
+   2   1.28492371e+11 -3.55487355e+11  2.32e+05 2.30e+03  8.78e+06   293s
+   3   8.22546578e+10 -2.70213195e+11  1.46e+05 1.35e+03  5.70e+06   294s
+   4   6.58420115e+10 -2.13086962e+11  1.16e+05 8.85e+02  4.52e+06   294s
+   5   4.82689779e+10 -1.54522493e+11  8.67e+04 4.84e+02  3.30e+06   295s
+   6   2.67285918e+10 -9.89547674e+10  4.89e+04 1.70e+02  1.88e+06   296s
+   7   1.14550064e+10 -6.51200744e+10  2.52e+04 6.66e+01  8.35e+05   296s
+   8   5.04032977e+09 -3.95592094e+10  1.07e+04 1.94e+01  3.73e+05   297s
+   9   3.37032773e+09 -3.27284680e+10  6.92e+03 1.17e+01  2.52e+05   297s
+  10   1.87029889e+09 -2.20189578e+10  3.65e+03 7.22e-01  1.41e+05   298s
+  11   9.83512706e+08 -1.72247424e+10  1.80e+03 1.99e-01  7.57e+04   298s
+  12   6.49357257e+08 -1.37952836e+10  1.12e+03 1.13e-10  4.91e+04   299s
+  13   4.13562092e+08 -8.73662603e+09  6.32e+02 9.70e-11  2.79e+04   300s
+  14   2.65813788e+08 -5.46638259e+09  3.26e+02 8.27e-11  1.49e+04   300s
+  15   1.92129616e+08 -3.17672608e+09  1.74e+02 6.00e-11  8.15e+03   301s
+  16   1.49180390e+08 -1.86689841e+09  9.88e+01 6.64e-11  4.58e+03   302s
+  17   1.21440915e+08 -1.40668718e+09  5.72e+01 5.37e-11  2.97e+03   303s
+  18   1.03174832e+08 -9.67284920e+08  3.77e+01 4.37e-11  1.99e+03   304s
+  19   8.97926817e+07 -6.45390320e+08  2.45e+01 3.37e-11  1.30e+03   305s
+  20   7.97976564e+07 -4.30206303e+08  1.59e+01 1.73e-11  8.50e+02   307s
+  21   6.99076679e+07 -3.03372782e+08  8.86e+00 1.36e-11  5.47e+02   309s
+  22   6.37322691e+07 -2.05715490e+08  5.20e+00 1.14e-11  3.59e+02   315s
+  23   5.95207102e+07 -1.68499544e+08  3.63e+00 1.38e-11  2.77e+02   326s
+
+Barrier performed 23 iterations in 564.97 seconds (1437.39 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  161820    3.7527699e+07   0.000000e+00   0.000000e+00    572s
+
+Solved in 161820 iterations and 571.54 seconds (1544.68 work units)
+Optimal objective  3.752769942e+07
+求解完成（状态=2），求解用时：571.544 秒
+程序总用时：841.826 秒
+
+--- 第15天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：217.560 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day15_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day15_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day15_MR_LP.mps
+Reading time = 24.84 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x5b9f6ab0
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139994 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139998 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139998 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159432 rows and 100511 columns
+Presolve time: 62.28s
+Presolved: 423337 rows, 351979 columns, 59793735 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 33.16s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 41s
+Elapsed ordering time = 45s
+Elapsed ordering time = 50s
+Elapsed ordering time = 55s
+Elapsed ordering time = 60s
+Elapsed ordering time = 62s
+Elapsed ordering time = 69s
+Elapsed ordering time = 72s
+Elapsed ordering time = 79s
+Elapsed ordering time = 82s
+Ordering time: 88.76s
+
+Barrier statistics:
+ Dense cols : 7532
+ AA' NZ     : 4.848e+08
+ Factor NZ  : 6.551e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.242e+14 (roughly 300 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.22934580e+11 -4.66746079e+11  1.24e+06 1.42e+03  3.07e+07   299s
+   1   2.49545012e+11 -4.11563003e+11  4.75e+05 2.70e+03  1.51e+07   300s
+   2   1.28707391e+11 -3.58328543e+11  2.33e+05 2.33e+03  8.82e+06   300s
+   3   8.18731902e+10 -2.70780055e+11  1.46e+05 1.36e+03  5.69e+06   301s
+   4   6.55908958e+10 -2.13682785e+11  1.16e+05 8.90e+02  4.51e+06   302s
+   5   4.81328501e+10 -1.54835675e+11  8.42e+04 4.88e+02  3.30e+06   302s
+   6   2.67376594e+10 -9.89254940e+10  4.97e+04 1.71e+02  1.89e+06   303s
+   7   1.16010790e+10 -6.51159978e+10  2.52e+04 6.80e+01  8.48e+05   304s
+   8   5.15185894e+09 -3.95981994e+10  1.09e+04 2.09e+01  3.82e+05   304s
+   9   3.19171732e+09 -3.30806370e+10  6.54e+03 1.33e+01  2.42e+05   305s
+  10   1.92509040e+09 -2.24032621e+10  3.81e+03 1.30e+00  1.47e+05   305s
+  11   9.96604553e+08 -1.61088644e+10  1.85e+03 4.00e-01  7.69e+04   306s
+  12   6.39121046e+08 -1.38536768e+10  1.12e+03 2.06e-01  5.00e+04   307s
+  13   3.98373169e+08 -9.62203274e+09  6.27e+02 9.91e-11  2.91e+04   307s
+  14   2.35561964e+08 -6.92056147e+09  2.97e+02 8.64e-11  1.56e+04   308s
+  15   1.80127317e+08 -3.72063390e+09  2.40e+02 6.83e-11  8.75e+03   309s
+  16   1.42094253e+08 -2.15843034e+09  1.33e+02 6.46e-11  5.03e+03   309s
+  17   1.03175677e+08 -1.47741581e+09  5.81e+01 4.45e-11  2.80e+03   310s
+  18   8.61603674e+07 -9.12396362e+08  3.64e+01 5.89e-11  1.72e+03   311s
+  19   7.35396822e+07 -4.90678945e+08  2.11e+01 3.46e-11  9.50e+02   313s
+  20   6.35586376e+07 -3.05418905e+08  1.04e+01 1.97e-11  5.42e+02   315s
+  21   5.74082809e+07 -2.14754719e+08  5.76e+00 1.71e-11  3.59e+02   321s
+  22   5.31722192e+07 -1.54515888e+08  3.23e+00 1.38e-11  2.51e+02   329s
+
+Barrier performed 22 iterations in 348.62 seconds (1093.32 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  124604    3.1022541e+07   0.000000e+00   0.000000e+00    355s
+
+Solved in 124604 iterations and 355.01 seconds (985.39 work units)
+Optimal objective  3.102254146e+07
+求解完成（状态=2），求解用时：355.022 秒
+程序总用时：639.195 秒
+
+--- 第16天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：210.267 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day16_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day16_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day16_MR_LP.mps
+Reading time = 24.19 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x2dc90348
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 140011 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 140015 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 140015 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 61.66s
+Presolved: 423338 rows, 351961 columns, 59795380 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 31.81s
+Elapsed ordering time = 32s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 48s
+Elapsed ordering time = 51s
+Elapsed ordering time = 58s
+Elapsed ordering time = 60s
+Elapsed ordering time = 68s
+Elapsed ordering time = 70s
+Elapsed ordering time = 76s
+Elapsed ordering time = 80s
+Ordering time: 83.61s
+
+Barrier statistics:
+ Dense cols : 8303
+ AA' NZ     : 4.681e+08
+ Factor NZ  : 6.255e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.110e+14 (roughly 250 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.25961157e+11 -4.65606460e+11  1.25e+06 1.42e+03  3.08e+07   288s
+   1   2.50522937e+11 -4.09926657e+11  4.76e+05 2.61e+03  1.51e+07   289s
+   2   1.28395377e+11 -3.55590077e+11  2.32e+05 2.29e+03  8.75e+06   289s
+   3   8.22800580e+10 -2.70317090e+11  1.46e+05 1.35e+03  5.68e+06   290s
+   4   6.58721212e+10 -2.12958212e+11  1.16e+05 8.81e+02  4.50e+06   290s
+   5   4.83455214e+10 -1.54003151e+11  8.90e+04 4.80e+02  3.29e+06   291s
+   6   2.67975663e+10 -9.84528525e+10  4.89e+04 1.69e+02  1.88e+06   291s
+   7   1.14713445e+10 -6.47028216e+10  2.50e+04 6.56e+01  8.33e+05   292s
+   8   5.06476954e+09 -3.94184690e+10  1.07e+04 1.98e+01  3.73e+05   292s
+   9   3.43218444e+09 -3.27325587e+10  7.02e+03 1.24e+01  2.56e+05   293s
+  10   1.95796172e+09 -2.23231407e+10  3.81e+03 7.44e-01  1.47e+05   294s
+  11   1.03913828e+09 -1.74491700e+10  1.91e+03 2.03e-01  7.98e+04   294s
+  12   6.62545872e+08 -1.26806811e+10  1.14e+03 1.09e-10  4.92e+04   295s
+  13   4.05228336e+08 -8.34088641e+09  6.94e+02 1.06e-10  2.73e+04   296s
+  14   2.52344553e+08 -5.51668545e+09  3.27e+02 1.00e-10  1.44e+04   297s
+  15   1.91244101e+08 -3.04445793e+09  2.07e+02 5.74e-11  8.11e+03   297s
+  16   1.46913440e+08 -2.02567741e+09  1.36e+02 7.13e-11  4.76e+03   298s
+  17   1.17322757e+08 -1.44410204e+09  7.84e+01 4.10e-11  3.00e+03   300s
+  18   1.01812053e+08 -9.34067974e+08  5.43e+01 3.06e-11  1.99e+03   301s
+  19   8.40831147e+07 -5.67884061e+08  2.84e+01 2.52e-11  1.12e+03   303s
+  20   7.01123491e+07 -3.87894360e+08  1.33e+01 2.23e-11  6.60e+02   305s
+  21   6.25476345e+07 -2.67796717e+08  6.63e+00 1.55e-11  4.19e+02   311s
+  22   5.78778373e+07 -2.12970058e+08  3.58e+00 2.41e-11  3.09e+02   321s
+
+Barrier performed 22 iterations in 420.54 seconds (1047.08 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  141859    3.5912102e+07   0.000000e+00   0.000000e+00    427s
+
+Solved in 141859 iterations and 426.91 seconds (1170.87 work units)
+Optimal objective  3.591210223e+07
+求解完成（状态=2），求解用时：426.918 秒
+程序总用时：702.605 秒
+
+--- 第17天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：205.350 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day17_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day17_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day17_MR_LP.mps
+Reading time = 24.29 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x32611f48
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139987 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 139991 rows and 100511 columns (presolve time = 21s)...
+Presolve removed 159432 rows and 100511 columns
+Presolve time: 62.19s
+Presolved: 423337 rows, 351986 columns, 59793742 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 14s
+Elapsed ordering time = 15s
+Ordering time: 33.45s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 42s
+Elapsed ordering time = 45s
+Elapsed ordering time = 52s
+Elapsed ordering time = 55s
+Elapsed ordering time = 62s
+Elapsed ordering time = 65s
+Elapsed ordering time = 72s
+Elapsed ordering time = 75s
+Elapsed ordering time = 82s
+Elapsed ordering time = 85s
+Ordering time: 91.67s
+
+Barrier statistics:
+ Dense cols : 2566
+ AA' NZ     : 5.140e+08
+ Factor NZ  : 8.132e+09 (roughly 70.0 GB of memory)
+ Factor Ops : 1.958e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+Barrier performed 0 iterations in 317.67 seconds (542.09 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  123766    3.0559544e+07   0.000000e+00   0.000000e+00    323s
+
+Solved in 123766 iterations and 323.28 seconds (947.33 work units)
+Optimal objective  3.055954433e+07
+求解完成（状态=2），求解用时：323.291 秒
+程序总用时：593.864 秒
+
+--- 第18天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：205.103 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day18_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day18_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day18_MR_LP.mps
+Reading time = 25.57 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xfb76fd3c
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139989 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139993 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139993 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 139993 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159432 rows and 100511 columns
+Presolve time: 63.08s
+Presolved: 423337 rows, 351984 columns, 59793740 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.91s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 41s
+Elapsed ordering time = 45s
+Elapsed ordering time = 52s
+Elapsed ordering time = 55s
+Elapsed ordering time = 63s
+Elapsed ordering time = 65s
+Elapsed ordering time = 73s
+Elapsed ordering time = 76s
+Elapsed ordering time = 84s
+Elapsed ordering time = 86s
+Ordering time: 93.76s
+
+Barrier statistics:
+ Dense cols : 6068
+ AA' NZ     : 4.876e+08
+ Factor NZ  : 7.921e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.873e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.22403452e+11 -4.66631247e+11  1.24e+06 1.42e+03  3.14e+07   314s
+   1   2.49532336e+11 -4.11730817e+11  4.75e+05 2.73e+03  1.54e+07   315s
+   2   1.29162022e+11 -3.58756829e+11  2.34e+05 2.36e+03  9.05e+06   315s
+   3   8.33827461e+10 -2.70916141e+11  1.48e+05 1.37e+03  5.89e+06   316s
+   4   6.65467852e+10 -2.12268259e+11  1.17e+05 8.85e+02  4.65e+06   317s
+   5   4.91857938e+10 -1.56857909e+11  9.06e+04 5.06e+02  3.43e+06   318s
+   6   2.50654319e+10 -1.00454395e+11  4.36e+04 1.97e+02  1.81e+06   318s
+   7   1.11746438e+10 -6.44170544e+10  2.57e+04 6.67e+01  8.34e+05   319s
+   8   5.10659443e+09 -3.93070923e+10  1.13e+04 2.02e+01  3.86e+05   320s
+   9   3.25659402e+09 -3.30213543e+10  7.01e+03 1.30e+01  2.51e+05   320s
+  10   1.92349039e+09 -2.26748848e+10  3.98e+03 1.64e+00  1.50e+05   321s
+  11   1.01828547e+09 -1.58862806e+10  1.99e+03 2.23e-01  7.99e+04   322s
+  12   6.07738029e+08 -1.26368354e+10  1.11e+03 1.03e-10  4.76e+04   323s
+  13   4.52159310e+08 -9.45738032e+09  7.74e+02 8.19e-11  3.31e+04   323s
+  14   2.72139478e+08 -6.67755117e+09  3.88e+02 8.82e-11  1.80e+04   324s
+  15   1.88093898e+08 -4.33277584e+09  2.05e+02 8.28e-11  1.01e+04   325s
+  16   1.37479379e+08 -2.24491063e+09  1.24e+02 8.77e-11  5.02e+03   326s
+  17   1.04892532e+08 -1.54877055e+09  7.59e+01 5.72e-11  2.90e+03   327s
+  18   9.07549379e+07 -9.88565611e+08  5.02e+01 3.93e-11  1.89e+03   328s
+  19   7.89941474e+07 -5.92414879e+08  3.35e+01 3.55e-11  1.17e+03   329s
+  20   6.59125664e+07 -3.90299930e+08  1.78e+01 3.09e-11  6.76e+02   331s
+  21   6.45945229e+07 -1.29592543e+08  1.62e+01 4.47e+03  6.26e+02   334s
+
+Barrier performed 21 iterations in 333.81 seconds (660.99 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  128511    3.1530160e+07   0.000000e+00   0.000000e+00    342s
+
+Solved in 128511 iterations and 341.51 seconds (968.69 work units)
+Optimal objective  3.153015963e+07
+求解完成（状态=2），求解用时：341.524 秒
+程序总用时：613.741 秒
+
+--- 第19天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：203.402 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day19_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day19_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day19_MR_LP.mps
+Reading time = 24.38 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0x75dd4449
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 139993 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 139997 rows and 100511 columns (presolve time = 14s)...
+Presolve removed 139997 rows and 100511 columns (presolve time = 20s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 61.51s
+Presolved: 423338 rows, 351979 columns, 59794818 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 31.15s
+Elapsed ordering time = 32s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 48s
+Elapsed ordering time = 50s
+Elapsed ordering time = 56s
+Elapsed ordering time = 60s
+Elapsed ordering time = 66s
+Elapsed ordering time = 70s
+Elapsed ordering time = 76s
+Elapsed ordering time = 80s
+Ordering time: 85.70s
+
+Barrier statistics:
+ Dense cols : 8379
+ AA' NZ     : 4.691e+08
+ Factor NZ  : 6.302e+09 (roughly 50.0 GB of memory)
+ Factor Ops : 1.125e+14 (roughly 260 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.23074102e+11 -4.66638869e+11  1.25e+06 1.42e+03  3.06e+07   294s
+   1   2.49607559e+11 -4.11394437e+11  4.75e+05 2.69e+03  1.50e+07   295s
+   2   1.28640486e+11 -3.58069812e+11  2.32e+05 2.32e+03  8.78e+06   295s
+   3   8.19224970e+10 -2.70619316e+11  1.46e+05 1.35e+03  5.67e+06   296s
+   4   6.56234389e+10 -2.13410528e+11  1.16e+05 8.87e+02  4.50e+06   297s
+   5   4.81532033e+10 -1.54530122e+11  8.42e+04 4.85e+02  3.29e+06   297s
+   6   2.67147321e+10 -9.88783863e+10  4.94e+04 1.70e+02  1.88e+06   298s
+   7   1.15441149e+10 -6.43000642e+10  2.43e+04 7.60e+01  8.42e+05   299s
+   8   5.05388611e+09 -3.94186680e+10  1.04e+04 2.50e+01  3.75e+05   299s
+   9   2.72514500e+09 -3.33808911e+10  5.35e+03 1.74e+01  2.10e+05   300s
+  10   1.74747152e+09 -2.28697847e+10  3.33e+03 4.73e+00  1.34e+05   301s
+  11   9.20971771e+08 -1.63600129e+10  1.64e+03 2.61e-01  7.20e+04   302s
+  12   6.43065863e+08 -1.14722067e+10  1.09e+03 1.32e-10  4.78e+04   303s
+  13   4.49396418e+08 -1.04049328e+10  8.46e+02 1.41e-10  3.35e+04   304s
+  14   2.72926086e+08 -7.13295203e+09  5.46e+02 8.91e-11  1.83e+04   304s
+  15   1.98796733e+08 -4.44089655e+09  3.34e+02 8.07e-11  1.07e+04   305s
+  16   1.59853828e+08 -2.55825860e+09  2.18e+02 8.46e-11  6.46e+03   306s
+  17   1.13942251e+08 -1.56117300e+09  9.40e+01 5.24e-11  3.20e+03   307s
+  18   9.45223810e+07 -1.00166592e+09  5.76e+01 4.09e-11  1.99e+03   309s
+  19   8.04484222e+07 -6.17343261e+08  3.59e+01 3.35e-11  1.22e+03   310s
+  20   6.81146973e+07 -4.07766972e+08  1.80e+01 2.13e-11  7.16e+02   312s
+  21   5.89684092e+07 -2.75530503e+08  8.07e+00 1.98e-11  4.30e+02   317s
+  22   5.43169270e+07 -2.13996131e+08  4.19e+00 1.43e-11  3.12e+02   328s
+
+Barrier performed 22 iterations in 345.67 seconds (1045.26 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  123136    3.1329255e+07   0.000000e+00   0.000000e+00    352s
+
+Solved in 123136 iterations and 352.34 seconds (925.66 work units)
+Optimal objective  3.132925469e+07
+求解完成（状态=2），求解用时：352.343 秒
+程序总用时：621.165 秒
+
+--- 第20天 ---
+Cardinal Optimizer v8.0.4. Build date Apr 24 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+问题建模完成，建模用时：204.364 秒
+Writing problem to /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day20_MR_LP.mps
+MPS 文件已写入：/home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day20_MR_LP.mps
+开始使用 Gurobi 求解模型...
+Read MPS format model from file /home/zby1021/ResearchCode/StartupShutdownCurve/ModelFile/TightModel/S5_Day20_MR_LP.mps
+Reading time = 25.65 seconds
+COPTPROB: 582769 rows, 433056 columns, 166913995 nonzeros
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 8
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 24.04 LTS")
+
+CPU model: AMD EPYC 9575F 64-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 128 physical cores, 128 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  10800
+Threads  8
+
+Optimize a model with 582769 rows, 433056 columns and 166913995 nonzeros
+Model fingerprint: 0xf911f1fa
+Coefficient statistics:
+  Matrix range     [7e-07, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [7e-02, 2e+03]
+  RHS range        [1e-02, 2e+04]
+Presolve removed 140026 rows and 100507 columns (presolve time = 6s)...
+Presolve removed 140030 rows and 100511 columns (presolve time = 15s)...
+Presolve removed 140030 rows and 100511 columns (presolve time = 21s)...
+Presolve removed 159431 rows and 100511 columns (presolve time = 25s)...
+Presolve removed 159431 rows and 100511 columns
+Presolve time: 64.34s
+Presolved: 423338 rows, 351946 columns, 59795365 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 13s
+Elapsed ordering time = 15s
+Ordering time: 32.89s
+Elapsed ordering time = 33s
+Elapsed ordering time = 35s
+Elapsed ordering time = 41s
+Elapsed ordering time = 45s
+Elapsed ordering time = 53s
+Elapsed ordering time = 56s
+Elapsed ordering time = 64s
+Elapsed ordering time = 67s
+Elapsed ordering time = 74s
+Elapsed ordering time = 77s
+Elapsed ordering time = 84s
+Elapsed ordering time = 86s
+Ordering time: 92.93s
+
+Barrier statistics:
+ Dense cols : 3284
+ AA' NZ     : 5.157e+08
+ Factor NZ  : 7.911e+09 (roughly 60.0 GB of memory)
+ Factor Ops : 1.882e+14 (roughly 400 seconds per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.26758592e+11 -4.65308766e+11  1.25e+06 1.42e+03  3.17e+07   316s
+   1   2.50907906e+11 -4.10076482e+11  4.77e+05 2.65e+03  1.55e+07   317s
+   2   1.29138705e+11 -3.55995670e+11  2.33e+05 2.32e+03  9.06e+06   317s
+   3   8.37368354e+10 -2.69255728e+11  1.49e+05 1.35e+03  5.91e+06   318s
+   4   6.67419906e+10 -2.10859782e+11  1.20e+05 8.70e+02  4.67e+06   318s
+   5   4.90301095e+10 -1.61665371e+11  1.02e+05 5.35e+02  3.44e+06   319s
+   6   2.58948429e+10 -1.01924022e+11  4.50e+04 2.01e+02  1.87e+06   320s
+   7   1.17969628e+10 -6.51162268e+10  2.36e+04 7.22e+01  8.81e+05   320s
+   8   5.44081131e+09 -3.98963113e+10  1.09e+04 1.92e+01  4.07e+05   321s
+   9   3.77608547e+09 -3.10777426e+10  7.42e+03 9.56e+00  2.81e+05   321s
+  10   1.99936629e+09 -2.47742022e+10  3.73e+03 2.84e+00  1.54e+05   322s
+  11   1.07973066e+09 -1.76483640e+10  1.89e+03 9.51e-01  8.39e+04   322s
+  12   6.22201278e+08 -1.22836550e+10  1.01e+03 2.21e-01  4.65e+04   323s
+  13   4.25104698e+08 -9.87998425e+09  8.34e+02 1.63e-02  3.04e+04   324s
+  14   3.24781726e+08 -7.58584236e+09  7.57e+02 9.28e-11  2.12e+04   325s
+  15   2.50501016e+08 -5.31893780e+09  4.93e+02 6.82e-11  1.39e+04   326s
+  16   1.89495220e+08 -3.30856122e+09  2.62e+02 7.09e-11  8.12e+03   327s
+  17   1.42295777e+08 -1.91213115e+09  1.60e+02 8.37e-11  4.27e+03   328s
+  18   1.24369285e+08 -1.40811751e+09  1.19e+02 4.91e-11  3.12e+03   329s
+  19   1.03083801e+08 -9.58319527e+08  6.89e+01 6.46e-11  1.96e+03   330s
+  20   9.13441793e+07 -6.11315580e+08  4.73e+01 2.82e-11  1.29e+03   331s
+  21   7.93987907e+07 -4.14853388e+08  2.85e+01 2.46e-11  8.24e+02   333s
+  22   7.01088785e+07 -2.99220755e+08  1.60e+01 1.80e-11  5.39e+02   336s
+  23   6.61814807e+07 -2.33004078e+08  1.14e+01 2.23e-11  4.12e+02   341s
+  24   6.12584828e+07 -1.80834403e+08  6.73e+00 1.64e-11  3.03e+02   349s
+  25   5.71784305e+07 -1.15462873e+08  3.73e+00 1.34e-11  2.02e+02   358s
+
+Barrier performed 25 iterations in 463.24 seconds (1375.35 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  149823    3.7146975e+07   0.000000e+00   0.000000e+00    470s
+
+Solved in 149823 iterations and 470.09 seconds (1231.49 work units)
+Optimal objective  3.714697465e+07
+求解完成（状态=2），求解用时：470.104 秒
+程序总用时：742.171 秒
+
